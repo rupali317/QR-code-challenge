@@ -115,6 +115,7 @@ body {
 img {
     border-radius: var(--img-border-radius);
     height: 57%;
+    width: 100%;
 }
 
 h2 {
