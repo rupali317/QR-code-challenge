@@ -131,7 +131,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 I would like to implement this project using ReactJS, Sass.
 In another iteration, I would like to explore how to vertically position the qr code to the center especially when the bottom tab exists 
 
-[Mobile screenshot Brave browser](https://github.com/rupali317/QR-code-challenge/blob/main/images/Screenshot_20231203_214730_Brave.jpg)
+![Mobile screenshot Brave browser](https://github.com/rupali317/QR-code-challenge/blob/main/images/Screenshot_20231203_214730_Brave.jpg)
   
 
 ### Useful resources
