@@ -141,6 +141,7 @@ footer {
     font-size: var(--font-size-footer); 
     text-align: center; 
     margin-top: var(--space-l);
+    max-width: 65%;
 }
 
 footer a { 
@@ -151,5 +152,5 @@ footer a {
 
 /*
  Estimated time: 8h
- Time taken so far: 3h 54m
+ Time taken so far: 6h 15m
 */
