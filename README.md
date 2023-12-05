@@ -99,6 +99,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 3. Difference between margin and margin-block/margin-inline. The latter takes into account of writing mode (handy when page is translated in different languages which adopt different writing modes)
 
+4. Importance of mentioning height and width attributes for image tag in order to prevent CLS
+
   
 
 ### Continued development
