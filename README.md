@@ -79,48 +79,25 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### What I learned
 
   
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-  
-
-To see how you can add code snippets, see below:
-
-  
+1. meta tags are one of the factors that increase SEO and good for accessibility
 
 ```html
-
-<h1>Some HTML code I'm proud of</h1>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<meta name="description" content="Front-end mentor's QR code component challenge is perfect for individuals new to CSS and HTML">
+<meta name="keywords" content="HTML, CSS, Desktop design, Mobile design">
+<meta name="author" content="Rupali Roy Choudhury">
 ```
 
-```css
+2. Preconnection concept while obtaining fonts. Preconnect is a resource hint that tells the browser to initiate an early connection to the specified domain. It can improve the loading speed of resources, such as web fonts, by starting the connection process early in the page's lifecycle.
 
-.proud-of-this-css {
-
-color: papayawhip;
-
-}
-
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 ```
 
-```js
-
-const  proudOfThisFunc = () => {
-
-console.log('🎉')
-
-}
-
-```
-
-  
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-  
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+3. Difference between margin and margin-block/margin-inline. The latter takes into account of writing mode (handy when page is translated in different languages which adopt different writing modes)
 
   
 
@@ -128,8 +105,9 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
   
 
-I would like to implement this project using ReactJS, Sass.
-In another iteration, I would like to explore how to vertically position the qr code to the center especially when the bottom tab exists 
+1) I would like to implement this project using ReactJS, Sass.
+2) Instead of getting fonts from another link, I would like to host it locally to improve web performance metrics like LCP, FCP
+3) In another iteration, I would like to explore how to vertically position the qr code to the center especially when the bottom tab exists 
 
 ![Mobile screenshot Brave browser](https://github.com/rupali317/QR-code-challenge/blob/main/images/Screenshot_20231203_214730_Brave.jpg)
   
@@ -154,6 +132,7 @@ In another iteration, I would like to explore how to vertically position the qr 
 
 ## Acknowledgments
 
+I express my gratitude towards my mentor - Deborah for the insightful code review session
   
 I want to thank Grace Snow for helping me solve an issue where the css file was not loading in Safari but worked in other browsers like Chrome, Brave, Firefox, Edge. It was because I had left the value empty for link tag's type attribute. 
 
