@@ -109,7 +109,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 1) I would like to implement this project using ReactJS, Sass.
 2) Instead of getting fonts from another link, I would like to host it locally to improve web performance metrics like LCP, FCP
-3) In another iteration, I would like to explore how to vertically position the qr code to the center especially when the bottom tab exists 
+3) In another iteration, I would like to explore how to vertically position the qr code to the center especially when the bottom tab exists
+4) Segregate the CSS reset in a separate css file (esp handy for larger projects)
 
 ![Mobile screenshot Brave browser](https://github.com/rupali317/QR-code-challenge/blob/main/images/Screenshot%20in%20my%20mobile%20-%20Brave%20browser.jpg)
   
