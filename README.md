@@ -111,7 +111,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 2) Instead of getting fonts from another link, I would like to host it locally to improve web performance metrics like LCP, FCP
 3) In another iteration, I would like to explore how to vertically position the qr code to the center especially when the bottom tab exists 
 
-![Mobile screenshot Brave browser](https://github.com/rupali317/QR-code-challenge/blob/main/images/Screenshot_20231203_214730_Brave.jpg)
+![Mobile screenshot Brave browser](https://github.com/rupali317/QR-code-challenge/blob/main/images/Screenshot%20in%20my%20mobile%20-%20Brave%20browser.jpg)
   
 
 ### Useful resources
