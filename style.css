@@ -5,17 +5,17 @@
     /* Colors */
     --background-color: hsl(212, 45%, 89%);
     --card-color: hsl(0, 0%, 100%);
+    --link-color: hsl(228, 45%, 44%);
     --main-text-color: hsl(218,44%,22%);
     --sub-text-color: hsl(220, 15%, 55%);
-    --link-color: hsl(228, 45%, 44%);
 
     /* Typography */
     --font-size-main: 1.375rem; /* 22px */
     --font-size-sub: 0.9375rem; /* 15px */
     --font-size-footer: 0.8125rem; /* 13px */
-    --line-height-normal: 1.2;  /* Normal */
     --font-weight-bold: 700;
     --font-weight-regular: 400;
+    --line-height-normal: 1.2;  /* Normal */
 
     /* Spacing */
     --space-none: 0;
